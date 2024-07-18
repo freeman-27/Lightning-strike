@@ -1,6 +1,6 @@
 Основные блоки(страницы) сайта.txt
-img/
-svg/
+#img/
+#svg/
 email-img/
 node_modules/
 php/connConfig.php
