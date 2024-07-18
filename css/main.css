@@ -1,0 +1,416 @@
+/*FONTS*/
+@font-face {
+    font-family: "fontello-icons";
+    src: url("fonts/_fontello/font/fontello.woff2");
+}
+/* BODY */
+body{
+    margin: 0;
+    padding: 0;
+}
+/*BACKGROUND*/
+body{
+    /* background-color: #000000; */
+    /* background-image: linear-gradient(to bottom right, red, gray); */
+    /* background-image: linear-gradient(to bottom right, red , blue); */
+}
+h1{
+    /* position: fixed; */
+}
+.customBackgroundBlock{
+    /* background: none; */
+    margin: 0;
+    block-size: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 1;
+    background-image: linear-gradient(to bottom right, var(--bg-main--DarkColor-restyle) , var(--bg-main--LightColor-restyle)) !important;
+    z-index: -1001;
+
+}
+.customBackgroundImg{
+    /* background: none; */
+    margin: 0.5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    block-size: 100%;
+    width: 200%;
+    position: fixed;
+    opacity: 0.25;
+}
+
+#videoBackground{
+    display: block;
+    /* display: initial; */
+}
+#BackgoundMovie {
+    position: fixed;
+    right: 0%;
+    bottom: -15%;
+    min-width: 150%;  
+    z-index: -2;
+    opacity: 0.7;
+}
+
+/*Start Block */
+.img--Box :hover{
+    cursor: pointer;
+    margin-top: 0px;
+    /* margin-bottom: -4.5px; */
+    /* border-top: 20px solid rgba(71, 63, 105, 0); */
+    /* border-bottom: 20px solid rgba(71, 63, 105, 0); */
+    background-color: rgba(71, 63, 105, 0);
+    /* transition-duration: 1s; */
+    /* width: 70em;
+    height: inherit; */
+    opacity: 0.9 !important;
+    transform: scaleY(5em) !important;
+}
+.img--Box2 :hover{
+    cursor: pointer;
+    margin-top: 0px;
+    /* margin-bottom: -4.5px; */
+    /* border-top: 20px solid rgba(71, 63, 105, 0); */
+    /* border-bottom: 20px solid rgba(71, 63, 105, 0); */
+    background-color: rgba(255, 255, 255, 1);
+    /* transition-duration: 1s; */
+    /* width: 70em;
+    height: inherit; */
+    opacity: 0.9 !important;
+    transform: scaleY(5em) !important;
+}
+
+/*ICONS*/
+nav i, .marketing i{
+	font-size: 75px;
+	padding: 25px;
+	border: 8px solid white;
+	background-color: rgba(33, 47, 61, 0.65);
+	/* background-color: #273746; */
+	border-radius: 50%;
+}
+.i--restyle--size{
+    padding: 10px;
+    font-size: 25px;
+    border: 2px solid white;
+}
+.icon--alt--style{
+	margin: 0 5px 0 5px;
+	border: 2px solid white;
+	background-color: rgba(33, 47, 61, 0.65);
+	/* background-color: #273746; */
+	border-radius: 50%;
+    /* padding: 0 6px 0 6px; */
+}
+/*HEADER*/
+h2{
+    padding-top: 2rem;
+}
+.marketing{
+    margin-top: 10rem;
+}
+/*MAIN CAROUSEL*/
+.carousel-inner{
+    height: 45rem;
+}
+.carousel-inner img{
+    height: 45rem;
+}
+/* .carousel-inner{
+    margin-top: 60rem;
+} */
+/*SERVICES BLOCK*/
+#Modal-ShowDescription-01 .modal-content, #Modal-ShowDescription-02 .modal-content, #Modal-ShowDescription-03 .modal-content,
+#Modal-ShowDescription-04 .modal-content, #Modal-ShowDescription-05 .modal-content, #Modal-ShowDescription-06 .modal-content{
+    background: var(--bg-main--Header--DarkColor-restyle);
+}
+#Modal-ShowDescription-01 .modal-content, #Modal-ShowDescription-02 .modal-content,#Modal-ShowDescription-03 .modal-content,
+#Modal-ShowDescription-04 .modal-content,#Modal-ShowDescription-05 .modal-content,#Modal-ShowDescription-06 .modal-content {
+    box-shadow: 0 0px 24px 32px rgba(166, 255, 0, 0.76), 0 0px 60px 65px rgba(255, 255, 255, 0.4) !important;
+    border-width: 10px !important;
+}
+#servicesContainer a{
+    color: var(--bg-main--Header--DarkColor-restyle);
+    text-decoration: none;
+}
+#servicesContainer a:hover{
+    color: black;
+    cursor:pointer;    
+    text-shadow: 0 0 10px yellowgreen, 0 0 20px white;
+    transition-duration: 0.5s;
+}
+#servicesContainer i:hover{
+    cursor:pointer;
+    box-shadow: 0 0px 24px 32px rgba(166, 255, 0, 0.76), 0 0px 60px 65px rgba(255, 255, 255, 0.4) !important;
+    border-color: var(--bg-main--Header--DarkColor-restyle);
+    transition-duration: 0.5s;
+}
+#servicesContainer i:active{
+    cursor:pointer;
+    box-shadow: 0 0px 24px 32px rgba(255, 255, 255, 0.76), 0 0px 60px 65px rgba(0, 0, 0, 0.4);
+}
+/*PRODUCT BLOCK*/
+
+#productBlock div.shadow-sm:hover{
+    margin: -10px;
+    border: 20px solid rgb(206, 255, 109);
+    box-shadow: 0 0px 24px 32px rgba(166, 255, 0, 0.76), 0 0px 60px 65px rgba(255, 255, 255, 0.4) !important;
+    transition-duration: 0.5s;
+}
+
+
+/* CERTIFICATES BLOCK */
+#exampleModal-01 img, #exampleModal-02 img, #exampleModal-03 img, #exampleModal-04 img, #exampleModal-05 img, #exampleModal-06 img, #exampleModal-07 img,
+#exampleModal-08 img, #exampleModal-09 img, #exampleModal-010 img, #exampleModal-011 img, #exampleModal-012 img {
+    width: 68em;
+    height: 50em;
+}
+
+
+/*FOOTER*/
+footer{
+    color: #fff;
+}
+
+/*==================================================*/
+/*MEDIA QUERES*/
+@media screen and (min-width: 1200px) and (max-width: 5000px){
+    body{
+	    /*background-image: linear-gradient(to bottom right, #273746, #9fb5c9  /* yellowgreen/* #d3dbe0*/  /*);  */
+	    /* background: none; */
+    }
+    #customBackgroundBlock{
+        /* background: none; */
+        /* background-image: url("/img/Backgrounds/lightning_thunderstorm_sky_117143_2560x1600.jpg"), linear-gradient(to bottom right, #7bdbdf, #2d3764);
+        background-repeat: repeat, no-repeat;
+        background-position: 0px 0px, 0px 0px !important;
+        background-size: cover, 100% 1000%;
+        background-attachment: fixed;
+        z-index: 2; */
+    }
+}
+
+@media screen and (min-width: 831px) and (max-width: 1199px){
+    nav img{
+        display: none;
+    } 
+    #navbarCollapse a{
+        font-size: small;
+        /* border-bottom: 2px solid red; */
+    }
+    #secondaryNavBar{
+        padding-top: 1rem !important;
+        /* border: 2px solid red; */
+    }
+    #secondaryNavBar img{
+        display: inline;
+    }
+    #altHomePageLink-1{
+        display: block;
+        /* border: 2px solid red; */
+    }
+    #altNavLogoimg{
+        display: block !important;
+    }
+    #altNavHomeicon{
+        display: none !important;
+    }
+    #altHomePageLink-2{
+        display: block;
+    }
+    .carousel-inner img{
+        margin-top: 6.5rem;
+        height: 35rem !important;
+    }
+    body{
+	    background-size: 25% auto, 100% 1000% ;
+    }
+    /* CERTIFICATES BLOCK */
+    #exampleModal-01 img, #exampleModal-02 img, #exampleModal-03 img, #exampleModal-04 img, #exampleModal-05 img, #exampleModal-06 img, #exampleModal-07 img,
+    #exampleModal-08 img, #exampleModal-09 img, #exampleModal-010 img, #exampleModal-011 img, #exampleModal-012 img {
+        width: 28.5em;
+        height: auto;
+    }
+    #collapseSertCards img{
+        width: 11em;
+        height: auto;
+    }
+
+}
+@media screen and (min-width: 750px) and (max-width: 830px){
+    nav img{
+        display: none;
+    }
+    #navbarCollapse a{
+        font-size: small;
+        /* border-bottom: 2px solid red; */
+    }
+    #secondaryNavBar{
+        padding-top: 5.5rem !important;
+        /* border: 2px solid red; */
+    }
+    #secondaryNavBar img{
+        display: inline;
+    }
+    #altHomePageLink-1{
+        display: block;
+        /* border: 2px solid red; */
+    }
+    #altNavLogoimg{
+        display: block !important;
+    }
+    #altNavHomeicon{
+        display: none !important;
+    }
+    #altHomePageLink-2{
+        display: block;
+    }
+    #altNavPersonalAccount{
+        display: block !important;
+    }
+    .carousel{
+        height: 40rem;
+    }
+    .carousel-inner img{
+        margin-top: 6.5rem;
+        height: 22.5rem !important;
+    }
+    body{
+	    background-size: 25% auto, 100% 1000% ;
+    }
+    /* CERTIFICATES BLOCK */
+    #exampleModal-01 img, #exampleModal-02 img, #exampleModal-03 img, #exampleModal-04 img, #exampleModal-05 img, #exampleModal-06 img, #exampleModal-07 img,
+    #exampleModal-08 img, #exampleModal-09 img, #exampleModal-010 img, #exampleModal-011 img, #exampleModal-012 img {
+        width: 29em;
+        height: auto;
+    }
+    #collapseSertCards img{
+        width: 8.75em;
+        height: 6em;
+    }
+}
+@media screen and (max-width: 749px) {
+    #altHomePageLink-1{
+        display: none;
+    }
+    /* #altHomePageLink-2{
+        display: none;
+    } */
+    #secondaryNavBar{
+        padding-top: 4rem !important;
+        padding-bottom: 3rem !important;
+        /* border: 2px solid red; */
+    }
+        /*SERVICES BLOCK*/
+        #Modal-ShowDescription-01 .modal-content, #Modal-ShowDescription-02 .modal-content, #Modal-ShowDescription-03 .modal-content,
+        #Modal-ShowDescription-04 .modal-content, #Modal-ShowDescription-05 .modal-content, #Modal-ShowDescription-06 .modal-content{
+        margin: auto;
+        width: 25em;
+        height: 25em;
+    }
+
+    .modal-content div{
+        margin-top: 0.5em !important;
+    }
+
+  /*  .modal-content h2{
+        padding: 0;
+        font-size: 1.5em;
+     }*/
+
+     .modal-content img{
+        margin: 0;
+        padding: 0;
+        width: 3em !important;
+     }
+
+
+    /* CERTIFICATES BLOCK */
+    #exampleModal-01 img, #exampleModal-02 img, #exampleModal-03 img, #exampleModal-04 img, #exampleModal-05 img, #exampleModal-06 img, #exampleModal-07 img,
+    #exampleModal-08 img, #exampleModal-09 img, #exampleModal-010 img, #exampleModal-011 img, #exampleModal-012 img {
+        width: 21.5em;
+        height: auto;
+    }
+    #collapseSertCards img{
+        width: 20.5em;
+        height: auto;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 375px) {
+    #altHomePageLink-1{
+        display: none;
+    }
+    /* #altHomePageLink-2{
+        display: none;
+    } */
+    #secondaryNavBar{
+        padding-top: 3rem !important;
+        padding-bottom: 1rem !important;
+        /* border: 2px solid red; */
+    }
+
+    #altHomePageLink-1{
+        display: block !important;
+        /* border: 2px solid red; */
+    }
+    #altNavHomeicon{
+        display: none !important;
+    }
+    #altHomePageLink-2{
+        display: none;
+    }
+    .carousel{
+        z-index: -1;
+        /* margin-top: -8.5rem; */
+        height: 30rem !important;
+    }
+    .carousel-inner{
+        margin-top: -5rem;
+        height: 30rem !important; 
+    }
+    .carousel-inner img{
+        margin-top: 8rem;
+        height: 18rem !important;
+    }
+    /*SERVICES BLOCK*/
+    #Modal-ShowDescription-01 .modal-content, #Modal-ShowDescription-02 .modal-content, #Modal-ShowDescription-03 .modal-content,
+    #Modal-ShowDescription-04 .modal-content, #Modal-ShowDescription-05 .modal-content, #Modal-ShowDescription-06 .modal-content{
+    margin: auto;
+    width: 20em;
+    height: 20em;
+}
+
+    .modal-content h2{
+        margin-top: 0 !important;
+        padding: 0;
+        font-size: 1.5em;
+    }
+
+    .modal-content p{
+        padding: 0;
+        /* font-size: 0.8em; */
+    }
+
+    .modal-content img{
+        margin: 0;
+        padding: 0;
+        width: 2em !important;
+     }
+
+    .modal-content button{
+        padding: 0.3em !important;
+        /* font-size: 1em; */
+     }
+
+    /* CERTIFICATES BLOCK */
+    #exampleModal-01 img, #exampleModal-02 img, #exampleModal-03 img, #exampleModal-04 img, #exampleModal-05 img, #exampleModal-06 img, #exampleModal-07 img,
+    #exampleModal-08 img, #exampleModal-09 img, #exampleModal-010 img, #exampleModal-011 img, #exampleModal-012 img {
+        width: 20em;
+        height: auto;
+    }
+    #collapseSertCards img{
+        width: 18em;
+        height: auto;
+    }
+
+}

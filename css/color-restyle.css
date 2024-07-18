@@ -1,0 +1,55 @@
+:root{
+    /* --bs-dark-rgb: rgb(33, 47, 61); */
+    /* --bs-dark-rgb: rgb(33, 47, 61); */
+    /* custom variables */
+    --text-nav--link--active-restyle: white;
+    /* --bg-nav--link--active-restyle: #acc99f; */
+    --bg-nav--link--active-restyle: #9fb5c9;
+    /* --bg-main--DarkColor-restyle: #14632a; */
+
+    --bg-main--DarkColor-restyle: rgba(0, 0, 0, 0.925);
+    /* --bg-main--DarkColor-restyle: #212F3D; */
+    
+    /* --bg-main--Header-DarkColor-restyle: #226449; */
+    --bg-main--LightColor-restyle: #ffffff;
+    --bg-main--Header--DarkColor-restyle: rgba(14, 9, 59, 0.925);
+    --bg-main--ImgGrad-restyle: linear-gradient(to bottom right, #17212b, #9fb5c9);
+
+    --bg-main--Cards--DarkColor-restyle: rgba(14, 9, 59, 0.842);
+    --bg-main--Cards--LightColor-restyle: rgba(175, 129, 164, 0.5);
+}
+
+.dark{
+    /* background-color: var(--bg-main-DarkColor-restyle); */
+    background-color: rgb(33, 47, 61);
+}
+
+.bg--main--BackImg--restyle{
+    background: var(--bg-main--ImgGrad-restyle);
+	background-image: url("/img/Backgrounds/hexagon\ texture1000-light-gray.png"), linear-gradient(to bottom right, #9fb5c9, #273746);
+    background-repeat: repeat, no-repeat;
+	background-position: 0px 0px, 0px 0px !important;
+	background-size: auto 12em, 100% 1000%;
+    background-attachment: fixed;
+}
+
+.btn-primary, .btn-outline-primary:hover{
+    background-color: #212F3D;
+    border: 2px solid white;
+}
+
+.bg--main--DarkColor--restyle{
+    background-color: var(--bg-main--DarkColor-restyle);
+}
+.bg--main--LightColor--restyle{
+    background-color: var(--bg-main--LightColor-restyle);
+}
+.bg--main--Header--DarkColor--restyle{
+    background-color: var(--bg-main--Header--DarkColor-restyle);
+}
+.bg--main--link--active{
+    background-color: rgba(159, 181, 201, 0.25);
+    border: 2px solid var(--bg-nav--link--active-restyle);
+    border-radius: 0.5em;
+    color: var(--text-nav--link--active-restyle) !important;
+}

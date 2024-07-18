@@ -1,0 +1,149 @@
+<?php header("HTTP/1.0 404 Not Found"); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WM | 404</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <!-- styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- custom links -->
+    <!-- bootstrap local -->
+    <link rel="stylesheet" href="css/bootstrap-5.3.3/carousel.css">
+    <link rel="stylesheet" href="css/bootstrap-5.3.3/sticky-footer-navbar.css">
+    <link rel="stylesheet" href="css/bootstrap-5.3.3/headers.css">
+    <link rel="stylesheet" href="css/bootstrap-5.3.3/product.css">
+    <link rel="stylesheet" href="fonts/_fontello/css/fontello.css">
+    <!-- custom links WM -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/color-restyle.css">
+    <link rel="stylesheet" href="css/loaderWMcustom.css">
+</head>
+<body onload="loading_DOM_html()" class="bg--main--BackImg--restyle">
+
+    <header id="mainHeader" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top border-bottom bg--main--Header--DarkColor--restyle" style="backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/img/WhiteFirstLogo3Small.png" alt="logo">&ensp; <b>WM</b> | webmaking.pro</a>
+
+            <button class="navbar-toggler px-0 ms-0 me-1" type="button" data-bs-toggle="modal" data-bs-target="#alt--sign--in--Modal" style="border: none;">
+              <img class="icon--alt--style" src="svg/person_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+              <span class=""></span>
+            </button>
+            <button class="navbar-toggler px-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <a href="" class="nav-link bg--main--link--active visually-hidden"></a>
+              <ul class="navbar-nav me-auto mb-2 mb-md-0" id="mainPageNavUL">
+                <li class="nav-item">
+                  <span class="nav-link" href="">|</span>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"><img class="" src="svg/domain_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">&ensp; Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="toggleActiveClassMainPage()" href="#servicesMain" ><img class="" src="svg/shop_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">&ensp;Услуги</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="toggleActiveClassMainPage()" href="#productBlock"><img class="" src="svg/category_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">&ensp;Примеры работ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#targetCertificates"><img class="" src="svg/card_membership_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">&ensp;Info</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#targetContacts"><img class="" src="svg/contact_mail_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">&ensp;Контакты</a>
+                </li>
+                <li class="nav-item">
+                  <span class="nav-link" href="">|</span>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="" onclick="goAlternativeSite()"><img class="" src="svg/public_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">&ensp;Альтернативный сайт</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="" onclick="goGitFunc()"><img class="icon-github-circled-alt2" src="" alt="">&ensp;GitHub</a>
+                </li>
+                <li class="nav-item">
+                  <span class="nav-link" href="">|</span>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="modal" data-bs-target="#alt--sign--in--Modal" type="submit"><img class="icon--alt--style" src="svg/person_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">&ensp;Личный кабинет</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li> -->
+              </ul>
+              <form class="d-flex" role="search">
+                <!-- <img class="" src="svg/badge_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt=""> -->
+                <!-- <i class="icon-code i--restyle--size"></i> -->
+
+                <!-- search template block --> <!--
+                <input class="form-control me-2 bg--main--Header--DarkColor--restyle" type="search" placeholder="Поиск" aria-label="Search">
+                <button class="btn btn-primary btn-outline-primary" type="submit"><img src="svg/search_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+                 -->
+
+
+                <!-- <img class="icon--alt--style" src="svg/person_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt=""> -->
+              </form>
+
+
+              
+            </div>
+          </div>
+        </nav>
+
+        <div class="b-example-divider" id="navbarFixedTopBackgoundMask" style="block-size: 75px; background-color: #17212b;"></div>
+        
+      </header>
+    <section>
+        <div class="container-fluid text-center mt-5 pt-5" style="block-size: 50em;">
+            <h1 class="display-3 fw-bold mb-5">Страница не найдена</h1>
+            <p class="display-4 m-5">Ошибка 404</p>
+            <p class="display-6 m-5 fw-bold">Для продолжения работы с сайтом<br>перейдите на главную страницу сайта.</p>
+            <button class="btn btn-primary btn-lg m-5 p-4 px-5 fs-3" onclick="goToMainPage()">На главную</button>
+        </div>
+    </section>
+    <section>
+    <!-- alt footer -->
+    <div class="container-fluid mx-auto">
+        <a class="btn d-flex mx-auto mb-0 mt-5 justify-content-center align-items-center w-25 border-white text-light fw-bold bg--main--DarkColor--restyle" href="#mainHeader">наверх</a>
+      </div>
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-0 border-top bg--main--DarkColor--restyle">
+          <div class="container-fluid">
+          
+          <ul class="nav col-md-12 justify-content-between">
+            <!-- list-part1 -->
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Главная</a></li>
+            <li class="nav-item"><a href="#productBlock" class="nav-link px-2 text-light">Примеры работ</a></li>
+            <li class="nav-item"><a href="#targetCertificates" class="nav-link px-2 text-light">Сертификаты</a></li>
+            <li class="nav-item"><a href="#targetContacts" class="nav-link px-2 text-light">Контакты</a></li>
+            <li class="nav-item"><a href="#targetContacts" class="nav-link px-2 text-light">Реквизиты</a></li>
+            <!-- list-part2 -->
+            <li class="nav-item"><a href="#servicesMain" class="nav-link px-2 text-light">Услуги</a></li>
+            <li class="nav-item"><a href="" class="nav-link px-2 text-light" onclick="goGitFunc()">GitHub</a></li>              
+            <!-- list-part3 -->              
+            <li class="nav-item"><a href="privacy-policy/PolicyStartPage.html" class="nav-link px-2 text-light">Персональные данные</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">webmaking.pro</a></li>
+          </ul>
+          
+
+          <a href="/" class="col-md-12 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis border-top text-decoration-none">
+            <br><br><br><img src="img/WhiteFirstLogo3Small.png" alt="logo"></a>
+          </a>
+
+          <p class="col-md-12 align-items-center justify-content-center text-center text-light">&copy; webmaking.pro | ИП Попов Евгений Константинович | 2023-2024 </p>
+          </div>
+        </footer>
+    </section>       
+      
+    </main>
+    <!-- scripts -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/ProjectsPagesWM.js"></script>
+<script src="/js/mainPageToggleActiveLink.js"></script>
+</body>
+</html>

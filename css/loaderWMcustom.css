@@ -1,0 +1,36 @@
+.customMainloader--WM {
+    /* position: absolute;
+    z-index: 1;
+    margin: 15em auto 0 auto !important; */
+
+    /* display: flex;
+    justify-content: center !important; */
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid var(--bg-main--Header--DarkColor-restyle);
+    border-right: 16px solid var(--bg-main--DarkColor-restyle);
+    border-bottom: 16px solid #9fb5c9;
+    border-left: 16px solid rgb(117, 124, 128);
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    /*logo image on spinner*/
+    background-image: url('/img/WhiteFirstLogo3Small.png');
+    background-size: 2.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0px 60px 40px rgba(33, 47, 61, 0.925), 0 0px 24px 20px #84a3c2;
+    /* box-shadow: 0 0px 24px 32px rgba(166, 255, 0, 0.76), 0 0px 60px 65px rgba(33, 47, 61, 0.925), 0 0px 80px 85px rgba(0, 0, 0, 0.4) !important; */
+
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
